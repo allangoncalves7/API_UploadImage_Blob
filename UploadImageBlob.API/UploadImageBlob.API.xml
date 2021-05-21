@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UploadImageBlob.API</name>
+    </assembly>
+    <members>
+        <member name="M:UploadImageBlob.API.Controllers.UploadController.UploadImage(UploadImageBlob.API.Model.ImageForUpload)">
+             <summary>
+             </summary>
+             <remarks>
+             Request
+            
+                 POST /Body
+                 {
+                    "image": "striingBase64",
+                    "name": "myimage.jpg"
+                 }
+            
+             </remarks>
+        </member>
+        <member name="T:UploadImageBlob.API.Response.Response`1">
+            <summary>
+            Resposta das requests
+            </summary>
+            <typeparam name="T"></typeparam>
+            
+        </member>
+        <member name="P:UploadImageBlob.API.Response.Response`1.Data">
+            <summary>
+            objeto retornado
+            </summary>
+        </member>
+        <member name="M:UploadImageBlob.API.Service.Validator.Autenticar(Microsoft.AspNetCore.Http.HttpRequest)">
+            <summary>
+            
+            </summary>
+            <param name="headerAuthorization"></param>
+            <returns></returns>
+            
+        </member>
+    </members>
+</doc>
